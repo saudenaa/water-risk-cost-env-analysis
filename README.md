@@ -1,107 +1,93 @@
-🌊 Water Treatment Cost, Risk & Environmental Impact Analysis
+# 🌊 Water Treatment Cost, Risk & Environmental Impact Analysis  
+**Python • SQL • Power BI • Data Analytics**
 
-Python • SQL • Power BI • Data Analytics
+---
 
-📌 Project Summary
-
-This project analyses multiple water treatment systems by comparing operational cost, health risk (DALY), environmental footprint, and resource distribution performance.
+## 📌 Project Summary  
+This project analyses multiple water treatment systems by comparing **operational cost**, **health risk (DALY)**, **environmental footprint**, and **resource distribution** performance.  
 Using Python, SQL, and Power BI, the dataset was cleaned, modelled, validated, and visualised to support evidence-based decision making for sustainable water treatment.
 
-🎯 Objectives
+---
 
-Compare treatment systems based on cost, risk, and environmental impact
+## 🎯 Objectives  
+- Compare systems based on cost, health risk, and environmental impact  
+- Evaluate carbon footprint and sustainability metrics  
+- Build dashboards for stakeholder decision-making  
+- Validate and structure the dataset using SQL  
+- Generate analytical insights from raw treatment data  
 
-Evaluate carbon footprint and sustainability metrics
+---
 
-Build dashboards for easy interpretation of results
+## 🛠 Tech Stack  
+- **Python** (pandas, numpy, matplotlib)  
+- **SQL** (data validation & summarisation)  
+- **Power BI** (interactive dashboards)  
+- **Excel / CSV datasets**  
 
-Validate and structure dataset using SQL
+---
 
-Produce analytical insights from raw treatment data
+## 📁 Dataset  
+**Files Used:**  
+- `NEWR_Results_LRTs.xlsx` — Original dataset  
+- `NEWR_clean.csv` — Cleaned dataset for analysis  
 
-🛠 Tech Stack
+**Includes:**  
+- Cost metrics  
+- DALY health risk indicators  
+- Energy & chemical usage  
+- Carbon emissions  
+- Resource distribution values  
 
-Python (pandas, numpy, matplotlib)
+---
 
-SQL (data validation & summarisation)
+## 📊 Analysis Components  
 
-Power BI (interactive dashboards)
+### **1️⃣ Python Processing**  
+- Cleaned inconsistent values  
+- Normalised columns  
+- Calculated comparison metrics  
+- Generated exploratory plots  
 
-Excel / CSV datasets
+### **2️⃣ SQL Queries**  
+- Verified dataset integrity  
+- Built summary tables  
+- Performed cost/risk calculations  
+- Prepared data for dashboards  
 
-📁 Dataset
+### **3️⃣ Power BI Dashboard**  
+- Cost comparison visuals  
+- Environmental footprint charts  
+- Health risk (DALY) metrics  
+- Resource distribution insights  
 
-Files used:
+---
 
-NEWR_Results_LRTs.xlsx — Original dataset
+## 📸 Visuals  
 
-NEWR_clean.csv — Cleaned dataset for analysis
+### **Overview of Treatment Systems**  
+![Overview](Water%20Treatment%20Overview.jpg)
 
-Contains:
+### **Environmental Footprint Analysis**  
+![Footprint](environmental-footprint-analysis.png)
 
-Cost metrics
+### **Resource Distribution Map**  
+![Resources](Watersupply-and-resource-distribution.png)
 
-DALY health risk indicators
+### **Sustainability Dashboard (Power BI)**  
+![Dashboard](Sustainability%20&%20Footprint%20Dashboard.jpg)
 
-Energy & chemical usage
+---
 
-Carbon emissions
+## 📈 Key Findings  
+- Low-cost systems often show higher DALY risk  
+- High-energy methods contribute significantly to carbon emissions  
+- Balanced systems perform best across all evaluated metrics  
+- Dashboards highlight optimal long-term treatment pathways  
+- Supports sustainable and informed decision making  
 
-Resource distribution variables
+---
 
-📊 Analysis Components
-1. Python Processing
-
-Cleaned inconsistent values
-
-Normalised columns
-
-Calculated comparison metrics
-
-Generated exploratory plots
-
-2. SQL Queries
-
-Verified dataset integrity
-
-Built summary tables
-
-Performed cost/risk checks
-
-Prepared data for dashboards
-
-3. Power BI Dashboard
-
-Cost comparison visuals
-
-Environmental footprint charts
-
-Health risk (DALY) metrics
-
-Resource distribution insights
-
-📸 Visuals
-Overview of Treatment Systems
-
-Environmental Footprint Analysis
-
-Resource Distribution Map
-
-Sustainability Dashboard (Power BI)
-
-📈 Key Findings
-
-Low-cost systems can show higher DALY risk
-
-High-energy methods contribute significantly to carbon emissions
-
-Balanced systems perform better across cost, risk, and sustainability
-
-Dashboards reveal which systems provide the best long-term trade-offs
-
-Supports sustainable planning and resource decision making
-
-📂 File Structure
+## 📂 File Structure  
 ├── NEWR_Results_LRTs.xlsx
 ├── NEWR_clean.csv
 ├── water_treatment_analysis.ipynb
@@ -112,36 +98,36 @@ Supports sustainable planning and resource decision making
 ├── Watersupply-and-resource-distribution.png
 └── README.md
 
-🚀 How to Run
-Python Notebook
 
-Open in Jupyter Notebook:
-water_treatment_analysis.ipynb
+---
 
-SQL
+## 🚀 How to Run  
 
-Run SQL script:
-water_treatment_analysis.sql
+### **Python Notebook**  
+Open the Jupyter Notebook:  
+`water_treatment_analysis.ipynb`
 
-Power BI
+### **SQL Script**  
+Run the SQL script:  
+`water_treatment_analysis.sql`
 
-Open your .pbix dashboard (if uploaded).
+### **Power BI Dashboard**  
+Open the `.pbix` file (if uploaded).
 
-🧠 Skills Demonstrated
+---
 
-Data Cleaning & Transformation
+## 🧠 Skills Demonstrated  
+- Data Cleaning & Transformation  
+- Statistical & Environmental Analysis  
+- SQL Data Validation  
+- Power BI Dashboard Design  
+- Research Documentation  
+- Operational & Sustainability Evaluation  
 
-Statistical & Environmental Analysis
+---
 
-SQL Data Validation
-
-Power BI Dashboard Design
-
-Research Reporting
-
-Operational & Sustainability Evaluation
-
-📬 Contact
-
-Amy Sauden
+## 📬 Contact  
+**Amy Sauden**  
 🔗 LinkedIn: https://www.linkedin.com/in/amishasauden
+
+
