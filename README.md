@@ -1,99 +1,147 @@
-# Water Treatment Risk, Cost, and Environmental Impact Analysis
+🌊 Water Treatment Cost, Risk & Environmental Impact Analysis
 
-This project analyzes multiple decentralized water treatment systems to understand:
-- **Public health risk** using DALY (Disability-Adjusted Life Years)
-- **Treatment cost** per gallon
-- **Environmental impact** across five sustainability metrics
-- **System performance under UV disinfection doses**
-- **Trade-offs** between cost, health safety, and environmental footprint
+Python • SQL • Power BI • Data Analytics
 
-The analysis was done in a Jupyter Notebook using Python.
+📌 Project Summary
 
----
+This project analyses multiple water treatment systems by comparing operational cost, health risk (DALY), environmental footprint, and resource distribution performance.
+Using Python, SQL, and Power BI, the dataset was cleaned, modelled, validated, and visualised to support evidence-based decision making for sustainable water treatment.
 
-## 🔬 Treatment Systems Evaluated
-The dataset includes five decentralized treatment systems:
-- **ACH** – Aerobic Composting with Heat
-- **AR** – Anaerobic Reactor
-- **GWMBR** – Greywater Membrane Bioreactor
-- **RWH** – Rainwater Harvesting
-- **WWMBR** – Wastewater Membrane Bioreactor
+🎯 Objectives
 
-Each system has different costs, risks, and environmental patterns.
+Compare treatment systems based on cost, risk, and environmental impact
 
----
+Evaluate carbon footprint and sustainability metrics
 
-## 📊 What This Notebook Does
+Build dashboards for easy interpretation of results
 
-### **1. Data Cleaning and Preparation**
-- Converted the dataset from wide to long format.
-- Standardized column names.
-- Removed unrealistic or negative values.
-- Prepared summaries for DALY, cost, and environmental metrics.
+Validate and structure dataset using SQL
 
-### **2. Risk Analysis (DALY)**
-We visualised how much health risk each treatment system poses.  
-Key outputs:
-- Boxplots showing the distribution of DALY.
-- Identification of the safest and least safe systems.
+Produce analytical insights from raw treatment data
 
-### **3. UV Dose vs DALY**
-We compared DALY values at different UV disinfection doses:
-- **0 mJ/cm²**
-- **40 mJ/cm²**
-- **80 mJ/cm²**
+🛠 Tech Stack
 
-This helped identify how UV affects pathogen reduction.
+Python (pandas, numpy, matplotlib)
 
-### **4. Environmental Impact Radar Chart**
-We analyzed five environmental impact categories:
-- Energy demand  
-- Fossil fuel depletion  
-- Global warming potential (CO₂-eq)  
-- Water consumption  
-- Water scarcity  
+SQL (data validation & summarisation)
 
-All metrics were normalized and plotted on a radar chart.
+Power BI (interactive dashboards)
 
-### **5. Cost Comparison**
-A bar chart shows average cost ($/gal) for each system.
+Excel / CSV datasets
 
-### **6. Trade-Off Analysis**
-A final combined scatter plot compares:
-- **Cost**
-- **Health risk**
-- **Environmental score**
+📁 Dataset
 
-This helps identify the most balanced and sustainable treatment option.
+Files used:
 
----
+NEWR_Results_LRTs.xlsx — Original dataset
 
-## 🧠 Summary of Findings
+NEWR_clean.csv — Cleaned dataset for analysis
 
-- **ACH** has the **highest risk** and the highest environmental footprint.  
-- **AR** has the **highest cost** per gallon.  
-- **GWMBR, RWH, and WWMBR** perform very similarly and consistently show:
-  - Low DALY (safer)
-  - Low cost
-  - Low environmental impact
-- UV dose **does not significantly change DALY**, meaning treatment design matters more than disinfection intensity.
-- The most balanced systems appear to be:
-  - **GWMBR**
-  - **RWH**
-  - **WWMBR**
+Contains:
 
----
+Cost metrics
 
-## 📁 Files in This Repository
+DALY health risk indicators
 
-- `water_treatment_analysis.ipynb` — main analysis notebook  
-- `NEWR_clean.csv` — cleaned dataset  
-- `NEWR_Results_LRTs.xlsx` — raw dataset  
+Energy & chemical usage
 
----
+Carbon emissions
 
-## 🚀 How to Run the Notebook
-1. Install required libraries:
-   ```bash
-   pip install pandas numpy matplotlib seaborn scikit-learn
+Resource distribution variables
 
+📊 Analysis Components
+1. Python Processing
+
+Cleaned inconsistent values
+
+Normalised columns
+
+Calculated comparison metrics
+
+Generated exploratory plots
+
+2. SQL Queries
+
+Verified dataset integrity
+
+Built summary tables
+
+Performed cost/risk checks
+
+Prepared data for dashboards
+
+3. Power BI Dashboard
+
+Cost comparison visuals
+
+Environmental footprint charts
+
+Health risk (DALY) metrics
+
+Resource distribution insights
+
+📸 Visuals
+Overview of Treatment Systems
+
+Environmental Footprint Analysis
+
+Resource Distribution Map
+
+Sustainability Dashboard (Power BI)
+
+📈 Key Findings
+
+Low-cost systems can show higher DALY risk
+
+High-energy methods contribute significantly to carbon emissions
+
+Balanced systems perform better across cost, risk, and sustainability
+
+Dashboards reveal which systems provide the best long-term trade-offs
+
+Supports sustainable planning and resource decision making
+
+📂 File Structure
+├── NEWR_Results_LRTs.xlsx
+├── NEWR_clean.csv
+├── water_treatment_analysis.ipynb
+├── water_treatment_analysis.sql
+├── Water Treatment Overview.jpg
+├── environmental-footprint-analysis.png
+├── Sustainability & Footprint Dashboard.jpg
+├── Watersupply-and-resource-distribution.png
+└── README.md
+
+🚀 How to Run
+Python Notebook
+
+Open in Jupyter Notebook:
+water_treatment_analysis.ipynb
+
+SQL
+
+Run SQL script:
+water_treatment_analysis.sql
+
+Power BI
+
+Open your .pbix dashboard (if uploaded).
+
+🧠 Skills Demonstrated
+
+Data Cleaning & Transformation
+
+Statistical & Environmental Analysis
+
+SQL Data Validation
+
+Power BI Dashboard Design
+
+Research Reporting
+
+Operational & Sustainability Evaluation
+
+📬 Contact
+
+Amy Sauden
+🔗 LinkedIn: https://www.linkedin.com/in/amishasauden
